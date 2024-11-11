@@ -9,7 +9,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 export class ReactiveFormsComponent implements OnInit {
 
   public registerForm: FormGroup = this.formBuilder.group({
-    fistName: [''],
+    firstName: [''],
     lastName: [''],
   });
 
